@@ -1,0 +1,179 @@
+body {
+  background-color: #f7f7f8;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  overflow-y: scroll;
+  height: 100%;
+  position: relative;
+
+  padding-bottom: 280px;
+}
+
+h4 {
+  padding-bottom: 20px !important;
+}
+
+.centered {
+  margin-left: 50% !important;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.padding-bottom {
+  padding-bottom: 20px !important;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.btn {
+  background-color: #03a9f4 !important;
+}
+
+.btn:hover {
+  background-color: #ee6e73 !important;
+}
+
+.login.btn:active {
+  background-color: #03a9f4 !important;
+}
+
+.login.btn:focus {
+  background-color: #03a9f4 !important;
+}
+
+.btn:visited {
+  background-color: #03a9f4;
+}
+
+.leave.btn:hover {
+  background-color: #ab47bc !important;
+}
+
+.login.btn:active {
+  background-color: #65caf8 !important;
+}
+.login.btn:focus {
+  background-color: #65caf8 !important;
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+
+.padding {
+  padding: 30px;
+}
+
+.login-margin {
+  margin-left: 50px;
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
+.page-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.material-icons {
+  margin: 40px 0;
+  color: #ee6e73;
+  font-size: 7rem !important;
+  display: block;
+}
+
+.horizontal-line {
+  height: 2px;
+  background-color: #f0f0f0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.greyy {
+  background-color: #f7f7f8;
+}
+
+.opentdb {
+  color: grey;
+}
+
+.players,
+.quiz,
+.chat {
+  min-height: 482.5px !important;
+}
+
+.messages {
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.question {
+  margin: 30px;
+  color: #fff;
+}
+
+.answer {
+  width: 100% !important;
+  min-height: 75px;
+  margin: 3px;
+}
+
+.playersList {
+  min-height: 285px !important;
+}
+
+/*
+.addPost {
+  float: right;
+}
+*/
+
+.postedBy {
+  color: #929292;
+  padding-top: 10px;
+}
+
+.pagination a {
+  letter-spacing: 0.5px;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+.pagination a:hover {
+  background-color: #03a9f4;
+  color: #fff;
+  cursor: pointer;
+}
+
+li.disabled a:hover {
+  background-color: transparent !important;
+}
+
+.page-footer a {
+  color: #fff;
+}
+
+.page-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-padding {
+  padding-right: 10px;
+}
+
+textarea.materialize-textarea {
+  min-height: 6rem !important;
+}
